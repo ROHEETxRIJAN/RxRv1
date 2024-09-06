@@ -1,6 +1,5 @@
 import os, platform
- 
-print(' CHECKING FOR UPDATE ');os.system('git pull');print('')
+ os.system('git pull');print('')
 bit = platform.architecture()[0]
 if bit == '32bit':
     import RxR32
