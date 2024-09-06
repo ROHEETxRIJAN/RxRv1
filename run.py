@@ -6,4 +6,3 @@ if bit == '32bit':
 elif bit == '64bit':
     import RxR64
 else: print(" YOUR DEVICE DOESN'T SUPPORT MY TOOL");exit()
- 
